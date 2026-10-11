@@ -580,11 +580,11 @@
           <div class="card-head"><h2>Demo script (5 minutes)</h2></div>
           <ol class="demo-steps">
             <li><a href="#/college">College</a> → <em>Lakeview Polytechnic</em>: register the sample <em>IoT-Based Automated Farm Irrigation</em>. The scan stops at 63% similar to #1 and shows both reports side by side. Register it anyway, declaring the similarity.</li>
-            <li><a href="#/college">College</a> → <em>Northgate</em>: register the ECG monitor (clean scan). Then <em>Hillcrest</em> submits Riverside's report unchanged: the smart contract refuses the exact copy.</li>
+            <li><a href="#/college">College</a> → <em>Northgate</em>: register the ECG monitor (clean scan). Then <em>Hillcrest</em> submits Riverside's report unchanged: the smart contract refuses the exact copy. Hillcrest then registers its own <em>Library Book Recommendation</em> sample (#8), which stays waiting for endorsement.</li>
             <li><a href="#/review">Peer Review</a> → <em>Riverside</em>: compare #6 with #1 and flag it. Endorse #5 and #7: they become Verified.</li>
             <li><a href="#/board">Consortium Board</a>: try a threshold of 5 (blocked), set 3, then uphold the dispute: #6 is Rejected.</li>
             <li><a href="#/verify">Verify Project</a>: look up #1 and print its certificate; check the copied report: it is Rejected.</li>
-            <li><a href="#/review">Peer Review</a>: <em>Skip 31 days</em>, then try to endorse a waiting project: the review window is closed.</li>
+            <li><a href="#/review">Peer Review</a>: <em>Skip 31 days</em>, then try to endorse #8 (Hillcrest's library project): the review window is closed.</li>
             <li><a href="#/explorer">Blockchain Explorer</a>: the hash-linked blocks and the audit log.</li>
           </ol>
         </div>

@@ -156,11 +156,11 @@ This recompiles and copies the new ABI and bytecode into `frontend/js/contract-a
 ## 5-minute demo script
 
 1. **College** → *Lakeview Polytechnic*: the sample *IoT-Based Automated Farm Irrigation…* is preselected. Click *Hash, fingerprint & register*. The similarity scan stops: **63% similar to #1** (Riverside's report), shown side by side. Click *Register anyway, declaring similarity to #1*.
-2. **College** → *Northgate*: register the ECG monitor sample (clean scan). Then *Hillcrest*: choose Riverside's *Smart Irrigation Controller* sample and register it. The smart contract refuses it: **"this exact report is already registered as project #1"**.
+2. **College** → *Northgate*: register the ECG monitor sample (clean scan). Then *Hillcrest*: choose Riverside's *Smart Irrigation Controller* sample and register it. The smart contract refuses it: **"this exact report is already registered as project #1"**. Still on *Hillcrest*, register its own *Library Book Recommendation using Collaborative Filtering* sample: project **#8**, left waiting for endorsement (used in step 6).
 3. **Peer Review** → *Riverside*: project #6 shows *63% similar to #1 · near-duplicate*. Click *Compare with #1*, then *Flag as duplicate*. Endorse #5 and #7: they become **Verified**.
 4. **Consortium Board**: enter threshold 5 → **blocked** (only 4 colleges). Set 3. Open the dispute evidence and click *Uphold*: #6 is **Rejected**.
 5. **Verify Project**: look up #1 → certificate with QR code → *Print certificate*. Load the *IoT-Based…* sample and *Check report*: exact match with #6, **Rejected, no certificate**.
-6. **Peer Review**: *Skip 31 days*, then try to endorse a waiting project: **"the 30-day review window … closed"**.
+6. **Peer Review**: *Skip 31 days*, then try to endorse **#8** (Hillcrest's library project): **"the 30-day review window … closed"**.
 7. **Blockchain Explorer**: the hash-linked blocks and the audit log.
 
 ## Publishing on GitHub Pages
